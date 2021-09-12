@@ -1,0 +1,217 @@
+
+<mat-toolbar >
+    <!--class="mat-elevation-z6"-->
+    <div>
+      <img class="logo" src="assets/logo.png" alt="Degpeg Logo">
+    </div>
+    
+  <div class="spacer"></div>
+    <a mat-button >Home</a>
+    <a mat-button>Platform Features</a>
+    <a mat-button>About Us</a>
+    <a mat-button>Career</a>
+    <a mat-button>Contact Us</a>
+    <!-- <div class="icon">
+      <button mat-mini-fab color="primary">
+        <mat-icon >arrow_forward_ios</mat-icon>
+      </button>
+    </div> -->
+  
+     <button class="loginbtn" mat-raised-button color="primary" (click)="gotoLogin()" style="margin: 10px">Login</button>
+     <button class="signinbtn" mat-raised-button color="primary" (click)="gotoSignin()">SignUp</button>
+    <!-- <a mat-button color="primary" routerLink="/loginpage">Login</a>  -->
+  <router-outlet
+  ></router-outlet>
+  </mat-toolbar>
+  
+  
+  <header>
+   
+  
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="assets/backgroundimg.jpg" alt="...">
+          <div class="carousel-caption">
+             <!--images -->
+    <div class="gifimg">
+      <img src="assets/img1.gif" />
+  
+    </div>
+    <div class="giftext"> 
+
+            <h2 class="animated bounceInRight" style="animation-delay: 1s">
+            Increase Engagement & Revenue</h2>
+      <h3 class="animated bounceInLeft" style="animation-delay: 2s">
+  Realise the power of Live commerce in <br>website & social channels</h3>
+  
+  <div class="icon" >
+    <button  class="animated bounceInLeft" style="animation-delay: 2s" mat-mini-fab color="primary">
+      <mat-icon >arrow_forward_ios</mat-icon>
+     
+    </button>
+    <button mat-button class="animated bounceInLeft" style="animation-delay: 2s" color="#565653"  >
+  Let's talk
+     
+    </button>
+   
+  </div> 
+  </div>
+   
+  </div>
+  </div>
+
+  <div class="item">
+      <img src="assets/backgroundimg.jpg" alt="...">
+      <div class="carousel-caption">
+           <!--images -->
+   <div class="gifimg">
+    <img src="assets/img2.gif"/>
+  </div>
+
+  <div class="giftext"> 
+
+  <h2 class="animated zoomIn" style="animation-delay: 1s">
+  Best Customer Support</h2>
+  <h3 class="animated zoomIn" style="animation-delay: 2s">
+    Degpeg is a cloud based Live Commerce platform that will enable you to showcase
+     and sell your products/services through multichannel livestreaming</h3>
+     
+     <div class="icon" >
+      <button  class="animated bounceInLeft" style="animation-delay: 2s" mat-mini-fab color="primary">
+        <mat-icon >arrow_forward_ios</mat-icon>
+       
+      </button>
+      <button mat-button class="animated bounceInLeft" style="animation-delay: 2s" color="#565653"  >
+    Let's talk
+       
+      </button>
+     
+    </div>    
+  </div><!-- new div -->
+
+  </div>
+
+  </div>
+  </div>
+  <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+  
+  <div class="text"> 
+    <h1>Degpeg is a cloud based Live Commerce platform that will enable you to showcase and sell your products/services through multichannel livestreaming</h1> 
+    <h1>Degpeg  as a platfoem can be effectively used in many ways:</h1>
+  </div>
+  
+  <div class="row">
+    <div class="column">
+      <div class="card">
+       <img src="assets/computerimg.png">
+        <h3>Company & <br>Product/industry updates</h3>
+        <p>Stream and share all important <br>infomation on your own community<br>
+        along with social channels.</p>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="assets/moneyimg.png">
+        <h3>Commerce Integrations with Flash
+        sales/Offers</h3>
+        <p>Build revenue over Live Broadcast with special offers for
+        limited time only.Give them instant gratification.</p>
+            
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <img src="assets/rocketimg.jpg">
+        <h3>Product launches &<br> demos</h3>
+        <p>Launch a new product in marcket Live in front of entire community through online in Degpeg Platform.</p>
+        
+       
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="assets/interviewimg.png">
+        <h3>Interviews/Talks shows/ Reviews</h3>
+        <p>Host Libe shows, talk shows eith your brand ambassadors,
+        super users etc for more interesting and information
+      sessions.</p>
+       
+      </div>
+    </div>
+  
+    <div class="column">
+      <div  mat-button  class="card">
+        <img src="assets/webinarimg.jpg">
+        <h3>Webinars,Classes,Workshop</h3>
+        <p>Easy setup to share your knowledge with rest of the world
+        best fit for education businesses or educations.</p>
+       
+      
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <img src="assets/chatimg.jpg">
+        <h3>Meetups & conference <br>Communicate</h3>
+        <p>Take any office event digital within no time and start
+        interacting with wider audiences, best fit for events.</p>
+      
+      </div>
+    </div>
+    
+  </div>
+  <div class="texttitle">
+    <h3>Product Features</h3>
+  </div>
+  
+  <div class="feature1"> 
+    
+   <div class="image">
+    <img src="assets/f1.png" alt="wordpress-folder-icon">
+   </div>
+   <div class="f1text">
+    <button class="btn" mat-button >Feature 1</button>
+    <h1>Multistreaming on Social <br> platforms</h1>
+    <p>Engage with a wider audience at the same time,
+       along with your own audience . Effortless live streaming through
+       desktop with all integrated features in it.</p>
+       <button  class="animated bounceInLeft" style="animation-delay: 2s" mat-mini-fab color="primary">
+        <mat-icon >arrow_forward_ios</mat-icon>
+       
+      </button>
+      <button mat-button class="animated bounceInLeft" style="animation-delay: 2s" color="#565653"  >
+    Let's talk
+       
+      </button>
+  
+   </div>
+  
+    
+    
+  
+  </div>

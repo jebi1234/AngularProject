@@ -1,0 +1,37 @@
+<mat-dialog-content>
+
+  <img src="assets/icon_logo.png" width="100px" height="100px" alt="degpeg logo"/>
+  <h1><b>signUp</b></h1>
+  <mat-form-field appearance="fill">
+      <mat-label>SignUp As</mat-label>
+      <mat-select >
+        <mat-option value="Advertiser">Advertiser</mat-option>
+        <mat-option value="Publisher">Publisher</mat-option>
+        <mat-option value="Influencer">Influencer</mat-option>
+      </mat-select>
+    </mat-form-field><br>
+    <form  name="form1" action="" >
+
+      <input class="email" name="email" type="text" placeholder="Email...." required />
+      <input class="email" type="email" placeholder="Retype-Email...."  required/><br>
+      <input class="password" type="password" placeholder="Password...." required />
+      <input class="password" type="password" placeholder="Conform Password...." required /><br>
+    
+      <button class="login" mat-raised-button>Register<mat-icon  aria-hidden="false" aria-label="Secure Login to Degpeg">lock</mat-icon></button>  
+  </form>   
+  <router-outlet></router-outlet>
+
+</mat-dialog-content>
+   
+<div class="socialmedia">
+  <h2><b>Welcome to Degpeg</b></h2>
+  <h4>SignUp you will get a chance to open <mark><h2>Mystery Box</h2></mark> with full of Degpeg Coins.</h4>
+  <div class="mysterybox">
+    <img src="assets/mysteryboximg.jpg"/><br>
+  </div>
+  <h4>SignUp with social media</h4>
+  <img src="assets/fbimg.png" alt="Facebook signUp"/>
+  <img src="assets/googleimg.jpg"  alt="Google SignUp"/>
+  <img src="assets/twitterimg.png"  alt="Twitter"/>
+  <img src="assets/githubimg.png" alt="Github"/>
+</div>

@@ -1,0 +1,42 @@
+mat-dialog-content
+{
+    text-align: center; 
+   float: left;
+}
+
+.email,.password
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #1F2471;
+    border:solid  #e94bb4 2px;
+    border-radius: 10px 10px;
+    font-weight: bold;
+}
+
+
+.login
+{
+    margin: 5px;
+    color: white;
+    background-color: #e94bb4;
+}
+.socialmedia
+{
+    float: left;
+    text-align: center;
+
+}
+.socialmedia img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.socialmedia .mysterybox img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 50%;
+    border:solid 3px #e94bb4;
+}

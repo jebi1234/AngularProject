@@ -1,0 +1,209 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.spacer
+{
+    /* padding-left: 300px; */
+    flex: 1 1 auto;
+}
+a{
+
+    font-size:16px;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.logo
+{
+    width: 100%;
+    height: 65px;
+    padding-left:60px;
+}
+mat-toolbar
+{
+    padding: 50px;
+    background-color: white;
+
+}
+.loginbtn:hover
+{
+  color: #1F2471;
+  background-color: #ee1fcb;
+}
+.signinbtn:hover
+{
+  color: #1F2471;
+  background-color: #ee1fcb;
+}
+
+   .navbar-inverse {
+   background-color: transparent;
+   border-color: transparent;
+
+  }
+      .navbar-inverse .navbar-brand {
+   color: #fff;
+  }
+      .navbar-inverse .navbar-nav > li > a {
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: 900;
+  }
+
+  header .carousel-inner .item{
+    height: 80vh;
+    margin: 0px;
+    padding: 0px;
+
+  }
+  header .carousel-inner .item img{
+    width: 100%;
+  }
+ 
+  .carousel-caption{
+    padding-bottom: 130px;
+    color: #1F2471;
+    font-size: larger;
+    
+  }
+
+  .carousel-caption{
+    float: left;
+  }
+  .carousel-control.right{
+    background-image: none;
+  }
+  .carousel-control.left{
+    background-image: none;
+  }
+
+  .carousel-caption .gifimg{
+    float: right;
+    width: 60%;
+    height: 60%;
+    position: relative;
+  
+  }
+ 
+
+  .text
+  {
+    color:#1F2471;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+  }
+  .text h1{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50px;
+  }
+ 
+
+
+  .column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row 
+  {
+    margin-left:90px ;
+    margin-top: 50px;
+    color: #1F2471;
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .column .card:hover{
+    color: white;
+    background-color: #cc35b8b7;
+    font-size: 27px;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgb(51, 106, 179);
+    padding: 18px;
+    background-color: #fafafa;
+    margin: 10px;
+
+  }
+  .card h3{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .card p{
+    font-size: 15px;
+  }
+.card img{
+  width: 40%;
+  height: 40%;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.texttitle h3{
+  text-align: center;
+  font-size: 30px;
+  color: #1F2471;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.feature1 img 
+{
+  float: left;
+  width: 40%;
+  height: 40%;
+  padding: 25px;
+  margin-left: 100px;
+}
+.feature1 .f1text .btn
+{
+  margin-top:150px ;
+ 
+  color:white;
+
+  font-size: 20px;
+  background-color: #a8acdb;
+}
+.feature1 .f1text h1
+{
+
+  color: #1F2471;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-weight: bold;
+ 
+
+}
+.feature1 .f1text p
+{
+
+  color: #1F2471;
+  font-size: 20px;
+  line-height: 25px;
+ 
+
+}
