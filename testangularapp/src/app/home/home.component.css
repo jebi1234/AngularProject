@@ -89,11 +89,19 @@ mat-toolbar
 
   .text
   {
-    color:#1F2471;
-    margin-top: 80px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 20px;
+   color:#1F2471;
+   float: left;
+   padding :50px;
+   margin-top: 20px;
+
+  }
+  .video
+  {
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin: 25px;
+    border-radius: 10% ;
   }
   .text h1{
     font-size: 35px;
@@ -169,7 +177,17 @@ mat-toolbar
   font-weight: bold;
   margin-top: 25px;
 }
+.feature1 img { 
+  overflow: hidden;
+  position: relative;
+  animation: MarqueeLeft linear 18s infinite;
+}
 
+@keyframes MarqueeLeft 
+{
+  0% { right: 0% }
+  100% { right: 5% }
+}
 .feature1 img 
 {
   float: left;
@@ -204,6 +222,4 @@ mat-toolbar
   color: #1F2471;
   font-size: 20px;
   line-height: 25px;
- 
-
 }

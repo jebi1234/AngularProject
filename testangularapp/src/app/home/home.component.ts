@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import {MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { LoginComponent } from '../login/login.component';
@@ -27,5 +27,6 @@ export class HomeComponent implements OnInit {
     this.dialog.open(SignupComponent);
    
   }
+ 
 
 }

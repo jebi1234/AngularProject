@@ -10,13 +10,14 @@
           <mat-option value="Influencer">Influencer</mat-option>
         </mat-select>
       </mat-form-field><br>
-      <form action="">
+      <form name="myform" action="">
         <input class="email" type="email" placeholder="Email" required /><br>
         <input class="password" type="password" placeholder="Password" required /><br>
         <a class="forgotpasd" href=""routerLink="forgotpassword" >Forgot Password?</a> <br>
         <!-- <a class ="signinlink" target="_blank" routerLink="signin">I am new to Degpeg.</a> <br> -->
-        <button class="login" mat-raised-button  >Continue<mat-icon  aria-hidden="false" aria-label="Secure Login to Degpeg">lock</mat-icon></button>  
+        <button class="login" mat-raised-button  >Continue <mat-icon  aria-hidden="false" aria-label="Secure Login to Degpeg">lock</mat-icon></button>  
     </form>   
+    
     <router-outlet></router-outlet>
 
 </mat-dialog-content>
